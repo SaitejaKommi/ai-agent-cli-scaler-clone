@@ -1,0 +1,23 @@
+{
+  "name": "ai-agent-cli-tool",
+  "version": "1.0.0",
+  "description": "Assignment 02 — Simple conversational CLI AI agent that generates a Scaler Academy clone (static HTML/CSS/JS).",
+  "main": "agent.js",
+  "scripts": {
+    "start": "node agent.js"
+  },
+  "keywords": [
+    "cli",
+    "agent",
+    "groq",
+    "html",
+    "css",
+    "javascript"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.6.1"
+  }
+}
+

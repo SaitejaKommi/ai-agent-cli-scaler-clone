@@ -109,7 +109,14 @@ powershell -NoProfile -Command "$env:MOCK_MODE='1'; node agent.js"
 ## Screenshots (placeholders)
 
 - Screenshot 1: CLI output (THINK/TOOL/OBSERVE/OUTPUT)
+  <img width="2527" height="1348" alt="Screenshot 2026-05-06 165957" src="https://github.com/user-attachments/assets/f562266c-e8d6-4f19-b752-1ecb5d9c0123" />
+
 - Screenshot 2: Generated website in browser
+<img width="1147" height="569" alt="Screenshot 2026-05-06 170051" src="https://github.com/user-attachments/assets/5dc63aec-f5b1-421a-b71d-c4ce656902db" />
+<img width="2167" height="1136" alt="Screenshot 2026-05-06 170122" src="https://github.com/user-attachments/assets/12a3e3cf-879a-4fbc-87b5-91c31ada502a" />
+<img width="2154" height="1211" alt="Screenshot 2026-05-06 170136" src="https://github.com/user-attachments/assets/435eb641-d445-4919-9668-d486f31a164b" />
+<img width="2146" height="760" alt="Screenshot 2026-05-06 170153" src="https://github.com/user-attachments/assets/8589f5d0-87e6-471e-b3e1-e635bf68aaf4" />
+
 
 ---
 

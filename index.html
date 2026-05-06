@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Scaler Academy — Todos (Clone)</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container header__inner">
+        <div class="brand">
+          <div class="brand__logo">S</div>
+          <div class="brand__text">
+            <div class="brand__name">Scaler</div>
+            <div class="brand__sub">Academy</div>
+          </div>
+        </div>
+
+        <nav class="nav">
+          <a href="#" class="nav__link">Dashboard</a>
+          <a href="#" class="nav__link nav__link--active">Todos</a>
+          <a href="#" class="nav__link">Calendar</a>
+          <a href="#" class="nav__link">Profile</a>
+        </nav>
+
+        <button class="btn btn--primary" id="btnLogin" type="button">Log in</button>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="container hero__inner">
+          <div class="hero__left">
+            <h1 class="hero__title">Mentee Dashboard — Todos</h1>
+            <p class="hero__subtitle">
+              A simple static clone inspired by Scaler Academy’s todo dashboard page.
+              Add tasks, mark them done, and stay consistent.
+            </p>
+
+            <div class="hero__card">
+              <div class="todo">
+                <div class="todo__top">
+                  <h2 class="todo__title">Today’s tasks</h2>
+                  <span class="todo__meta" id="taskCount">0 tasks</span>
+                </div>
+
+                <form class="todo__form" id="todoForm" autocomplete="off">
+                  <input
+                    class="input"
+                    id="todoInput"
+                    placeholder="Add a new task (e.g., Solve 2 DSA questions)"
+                  />
+                  <button class="btn btn--dark" type="submit">Add</button>
+                </form>
+
+                <ul class="todo__list" id="todoList"></ul>
+
+                <div class="todo__actions">
+                  <button class="btn btn--ghost" id="clearDone" type="button">Clear done</button>
+                  <button class="btn btn--ghost" id="clearAll" type="button">Clear all</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <aside class="hero__right">
+            <div class="stat">
+              <div class="stat__label">Streak</div>
+              <div class="stat__value">7 days</div>
+              <div class="stat__hint">Keep building momentum.</div>
+            </div>
+            <div class="stat">
+              <div class="stat__label">Next session</div>
+              <div class="stat__value">Today, 7:30 PM</div>
+              <div class="stat__hint">Be ready 5 minutes early.</div>
+            </div>
+            <div class="stat stat--accent">
+              <div class="stat__label">Tip</div>
+              <div class="stat__value">Small steps</div>
+              <div class="stat__hint">Consistency beats intensity.</div>
+            </div>
+          </aside>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer__inner">
+        <div class="footer__left">
+          <div class="footer__brand">Scaler (Clone)</div>
+          <div class="footer__note">Made for Assignment 02 — AI Agent CLI Tool.</div>
+        </div>
+        <div class="footer__right">
+          <a class="footer__link" href="#">Terms</a>
+          <a class="footer__link" href="#">Privacy</a>
+          <a class="footer__link" href="#">Contact</a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
